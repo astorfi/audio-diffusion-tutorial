@@ -30,6 +30,7 @@ On Windows, run:
 
    ```shell
    .\venv\Scripts\activate
+   ```
 
 On macOS and Linux, run:
 

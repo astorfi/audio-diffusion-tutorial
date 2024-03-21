@@ -29,7 +29,7 @@ Activate the virtual environment:
 On Windows, run:
 
    ```shell
-    .\venv\Scripts\activate
+   .\venv\Scripts\activate
 
 On macOS and Linux, run:
 

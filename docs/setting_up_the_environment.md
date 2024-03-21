@@ -36,6 +36,7 @@ On macOS and Linux, run:
 
    ```shell
    source venv/bin/activate
+   ```
 
 ## Step 2: Installing Required Libraries
 
@@ -45,26 +46,31 @@ With your virtual environment activated, install the following libraries using p
 
    ```shell
    pip install torch torchvision torchaudio
+   ```
 
 For TensorFlow:
 
    ```shell
    pip install tensorflow
+   ```
 
 **Librosa:** A library for analyzing and processing audio signals.
 
    ```shell
    pip install librosa
+   ```
 
 NumPy: Useful for numerical processing in Python.
 
    ```shell
    pip install numpy
+   ```
 
 SciPy: Provides more advanced utilities for scientific computing.
 
    ```shell
    pip install scipy
+   ```
 
 You might also need additional libraries specific to the models or tasks you're working on, so refer to their documentation for any other requirements.
 
@@ -73,6 +79,7 @@ To verify that everything is set up correctly, try importing the installed libra
 
    ```shell
    python
+   ```
 
 Then, try importing the libraries:
 
@@ -81,6 +88,7 @@ Then, try importing the libraries:
    import librosa
    import numpy
    import scipy
+   ```
 
 If you don't encounter any errors, you're all set!
 

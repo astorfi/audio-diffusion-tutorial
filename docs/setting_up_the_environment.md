@@ -24,17 +24,17 @@ It's a good practice to create a virtual environment for your project. This keep
    python -m venv venv
 
 
-4. Activate the virtual environment:
+Activate the virtual environment:
 
 On Windows, run:
 
    ```shell
-       .\venv\Scripts\activate
+    .\venv\Scripts\activate
 
 On macOS and Linux, run:
 
    ```shell
-    source venv/bin/activate
+   source venv/bin/activate
 
 ## Step 2: Installing Required Libraries
 
@@ -43,7 +43,7 @@ With your virtual environment activated, install the following libraries using p
 **TensorFlow or PyTorch:** These are the primary deep learning libraries used to work with diffusion models. Install one based on the model you plan to use. For PyTorch:
 
    ```shell
-     pip install torch torchvision torchaudio
+   pip install torch torchvision torchaudio
 
 For TensorFlow:
 

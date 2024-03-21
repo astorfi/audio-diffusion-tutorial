@@ -29,7 +29,7 @@ It's a good practice to create a virtual environment for your project. This keep
 On Windows, run:
 
    ```shell
-    .\venv\Scripts\activate
+       .\venv\Scripts\activate
 
 On macOS and Linux, run:
 
@@ -42,44 +42,44 @@ With your virtual environment activated, install the following libraries using p
 
 **TensorFlow or PyTorch:** These are the primary deep learning libraries used to work with diffusion models. Install one based on the model you plan to use. For PyTorch:
 
-```shell
-  pip install torch torchvision torchaudio
+   ```shell
+     pip install torch torchvision torchaudio
 
 For TensorFlow:
 
-```shell
-pip install tensorflow
+   ```shell
+   pip install tensorflow
 
 **Librosa:** A library for analyzing and processing audio signals.
 
-```shell
-pip install librosa
+   ```shell
+   pip install librosa
 
 NumPy: Useful for numerical processing in Python.
 
-```shell
-pip install numpy
+   ```shell
+   pip install numpy
 
 SciPy: Provides more advanced utilities for scientific computing.
 
-```shell
-pip install scipy
+   ```shell
+   pip install scipy
 
 You might also need additional libraries specific to the models or tasks you're working on, so refer to their documentation for any other requirements.
 
 ## Step 3: Verifying the Installation
 To verify that everything is set up correctly, try importing the installed libraries in a Python shell. Activate your virtual environment and start Python:
 
-```shell
-python
+   ```shell
+   python
 
 Then, try importing the libraries:
 
-```shell
-import torch
-import librosa
-import numpy
-import scipy
+   ```shell
+   import torch
+   import librosa
+   import numpy
+   import scipy
 
 If you don't encounter any errors, you're all set!
 
